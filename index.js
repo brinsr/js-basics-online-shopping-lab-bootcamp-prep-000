@@ -64,7 +64,7 @@ function removeFromCart(item) {
   // write your code here
   cart.forEach(function(element){
     if(element===item){
-      cart.splice(indexOf(element),1);
+      return cart.splice(indexOf(element),1);
       } else{
         return "That item is not in your cart";
       }
