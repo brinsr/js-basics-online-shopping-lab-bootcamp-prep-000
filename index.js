@@ -51,7 +51,7 @@ function viewCart()
             }      
   
 
-        return "In your cart, you have"+outputStatement.join()+" and "+` ${cart[cart.length-1].itemName}
+        return "In your cart, you have"+outputStatement.join()+" and "+` ${cart[cart.length-1].itemName} at 
                 at \$${cart[cart.length-1].itemPrice}.`;
    
 
