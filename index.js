@@ -26,7 +26,7 @@ function viewCart()
    } 
       else if(cart.length==1)
      {
-       outputStatement[0]=` ${cart[0].itemName} at \$${cart[0].itemPrice}`;
+       outputStatement[0]=` ${cart[0].itemName} at \$${cart[0].itemPrice}.`;
          return "In your cart, you have"+outputStatement[0];
        }else if(cart.length==2)
             {outputStatement[0]=` ${cart[0].itemName} at \$${cart[0].itemPrice}`;
