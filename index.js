@@ -18,30 +18,7 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  if(!cart.length){
-    return "Your shopping cart is empty.";
-  } else{
-  var outputStatement=[];
-  var i=0;
-  while(i<=cart.length-2){
-    if(cart.length==1){
-      outputStatement[0]=` ${cart[0].itemName} at \$${cart[0].itemPrice}`;
-      return "In your cart, you have"+outputStatement[0];
-    }else if(cart.length==2){
-      
-      outputStatement[0]=` ${cart[0].itemName} at \$${cart[0].itemPrice}`;
-      outputStatement[1]=` ${cart[1].itemName} at \$${cart[1].itemPrice}.`;
-      return "In your cart, you have"+outputStatement.join(", and");
-    }
-    else{
-    outputStatement[i]=` ${cart[i].itemName} at \$${cart[i].itemPrice}`;
-    i++;
-    }
   
-  
-   return "In your cart, you have"+outputStatement.join()+" and "+` ${cart[cart.length-1].itemName} at \$${cart[cart.length-1].itemPrice}.`;
-   }
-}
 }
 
 function total() {
