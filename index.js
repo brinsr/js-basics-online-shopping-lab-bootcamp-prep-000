@@ -35,13 +35,29 @@ function viewCart()
              }
       else
       { //var outputStatement=[];
-        for(var i=0;i<cart.length-1;i++){
+        /*for(var i=0;i<cart.length-1;i++){
  outputStatement[i]=` ${cart[i].itemName} 
  at \$${cart[i].itemPrice}`;
          }      
  return "In your cart, you have"+ outputStatement.join()+" and"+
 ` ${cart[cart.length-1].itemName} at \$${cart[cart.length].itemPrice}.`;
-       }
+       }*/
+       { //var outputStatement=[];
+
+        for(var i=0;i<cart.length-1;i++){
+ 
+            outputStatement[i]=` ${cart[i].itemName} at \$${cart[i].itemPrice}`;
+ 
+            }      
+  
+
+        return "In your cart, you have"+outputStatement.join()+" and "+` ${cart[cart.length-1].itemName}
+                at \$${cart[cart.length-1].itemPrice}.`;
+   
+
+      }
+
+
  }
 function total() {
 
