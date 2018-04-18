@@ -16,16 +16,6 @@ function addToCart(item) {
  return `${cart[cart.length-1].itemName} has been added to your cart.`;
 }
 
-function viewCart() {
-  // write your code here
-   var item1= new Object({itemName:item,itemPrice:Math.floor(Math.random()*100)+1});
-
-   cart.push(item1);
-
-   return `${cart[cart.length-1].itemName} has been added to your cart.`;
-
-}
-
 function viewCart() 
 {
   // write your code here
